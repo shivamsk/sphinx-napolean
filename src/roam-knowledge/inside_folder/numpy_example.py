@@ -321,3 +321,4 @@ class ExampleClass(object):
 
     def _private_without_docstring(self):
         pass
+
