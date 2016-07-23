@@ -19,7 +19,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../'))
+#sys.path.insert(0, os.path.abspath('../'))
+sys.path.append('../src/roam-knowledge/inside_folder')
 
 # -- General configuration ------------------------------------------------
 
@@ -31,7 +32,7 @@ sys.path.insert(0, os.path.abspath('../'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc','sphinx.ext.napoleon'
+        'sphinx.ext.autodoc','sphinx.ext.napoleon'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -340,6 +341,6 @@ texinfo_documents = [
 #
 # texinfo_no_detailmenu = False
 
-napoleon_google_docstring = False
-napoleon_use_param = False
-napoleon_use_ivar = True
+# napoleon_google_docstring = False
+# napoleon_use_param = False
+# napoleon_use_ivar = True
