@@ -20,8 +20,9 @@
 import os
 import sys
 #sys.path.insert(0, os.path.abspath('../'))
-sys.path.append('../src/roam-knowledge/inside_folder')
-
+#sys.path.append('../src/roam-knowledge/inside_folder')
+sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../..'))
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
