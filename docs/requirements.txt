@@ -1,1 +1,1 @@
-../src/roam-knowledge
+src/roam-knowledge/
