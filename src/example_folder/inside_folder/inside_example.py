@@ -1,5 +1,5 @@
 
-"""Inside Example NumPy style docstrings.
+"""Inside Numpy Example NumPy style docstrings.
 
 This module demonstrates documentation as specified by the `NumPy
 Documentation HOWTO`_. Docstrings may extend over multiple lines. Sections

@@ -21,9 +21,9 @@ import os
 import sys
 #sys.path.insert(0, os.path.abspath('../'))
 #sys.path.append('../src/example_folder/inside_folder')
-sys.path.insert(0, os.path.abspath('../src'))
+sys.path.insert(0, os.path.abspath('../src/'))
 sys.path.insert(0, os.path.abspath('../src/example_folder'))
-sys.path.insert(0, os.path.abspath('../src/example_folder/inside_folder'))
+sys.path.insert(0, os.path.abspath('../src/example_folder/inside_folder/'))
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -36,6 +36,7 @@ sys.path.insert(0, os.path.abspath('../src/example_folder/inside_folder'))
 extensions = [
         'sphinx.ext.autodoc','sphinx.ext.napoleon'
 ]
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

@@ -9,9 +9,9 @@ Welcome to napolean-test's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
 
-   folder2/modules
+   folder5/modules
 Indices and tables
 ==================
 

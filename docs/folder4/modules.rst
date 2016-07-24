@@ -5,4 +5,3 @@ example_folder
    :maxdepth: 4
 
    numpy_example
-   inside_example
