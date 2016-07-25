@@ -1,7 +1,8 @@
-inside_folder
-=============
+src
+===
 
 .. toctree::
    :maxdepth: 4
 
-   inside_example
+   numpy_directory
+   numpy_second_directory

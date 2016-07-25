@@ -11,7 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 5
 
-   folder5/modules
+   folder/modules
+
 Indices and tables
 ==================
 
