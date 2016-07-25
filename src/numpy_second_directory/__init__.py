@@ -1,0 +1,3 @@
+"""Numpy Second Directory
+
+"""
